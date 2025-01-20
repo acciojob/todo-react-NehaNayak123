@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import './../styles/App.css';
-// import ToDoList from "./ToDoList";
 
 const App = () => {
   const [todos, setTodos]=useState([]);
@@ -24,7 +23,6 @@ const App = () => {
   return (
     <div className="container">
         {/* Do not remove the main div */}
-        // <ToDoList/>
       <h1>To-Do List</h1>
             <div className="main">
                 <div>
